@@ -16,10 +16,12 @@ export default function FullScreenImage() {
 
       {/* محتوى فوق الصورة (اختياري) */}
       <div className="absolute inset-0 flex flex-col justify-center items-center text-white bg-black/30">
-       
-         
-          
-         
+        <h1 className="text-4xl md:text-6xl font-bold mb-4 text-center">
+          مرحبًا بك في مطعم الأحلام
+        </h1>
+        <p className="text-lg md:text-2xl text-center max-w-xl">
+          استمتع بأفضل الأطعمة الطازجة واللذيذة، محضرة بحب ومكونات عالية الجودة.
+        </p>
       </div>
     </div>
   );
